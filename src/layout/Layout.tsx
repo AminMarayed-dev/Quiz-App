@@ -7,7 +7,7 @@ interface Props {
 
 function Layout({ children }: Props) {
   return (
-    <div className="flex flex-col justify-between py-6 items-center mt-4 bg-purple-500 mx-auto w-1/2 min-h-[55vh] rounded-lg">
+    <div className="flex flex-col justify-between py-6 items-center mt-4 bg-purple-500 mx-auto w-1/2 min-h-[60vh] rounded-lg">
       <Header />
       {children}
     </div>
